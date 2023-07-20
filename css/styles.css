@@ -631,6 +631,10 @@ hr {
     font-size: 14px;
   }
 
+  .hero-primary {
+    font-size: 1.4rem;
+  }
+
   .cards {
     grid-template-columns: 1fr;
   }
