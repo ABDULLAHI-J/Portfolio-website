@@ -622,17 +622,24 @@ hr {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  section {
+    margin-bottom: 9.25rem;
+    margin-top: 1.5rem;
+  }
+
   .about-me {
     /* width: 100%; */
     flex-direction: column;
   }
 
   .button {
-    font-size: 14px;
+    font-size: 13.8px;
   }
 
-  .hero-primary {
-    font-size: 1.4rem;
+  .hero-primary,
+  .contact-title {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
   }
 
   .cards {
