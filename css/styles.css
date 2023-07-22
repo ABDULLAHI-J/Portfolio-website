@@ -583,6 +583,36 @@ hr {
   margin-top: 10px;
 }
 
+/* success page */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 550px;
+  width: 100%;
+  background-color: lightgray;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.container p {
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.container h1 {
+  font-weight: 600;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 /* RESPONSIVENESS  */
 @media (max-width: 1024px) {
   .sidebar {
