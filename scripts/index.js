@@ -10,7 +10,6 @@ navLinks.forEach((navItem) => {
   navItem.addEventListener("click", () => {
     document.querySelector(".is-active").classList.remove("is-active");
     navItem.classList.add("is-active");
-
     sidebar.classList.remove("is-active");
   });
 });
